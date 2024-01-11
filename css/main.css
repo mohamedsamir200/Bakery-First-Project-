@@ -26,6 +26,7 @@
 .nav-bar .nav-logo {
     width: 20%;
     float: left;
+    background-color: red;
 }
 
 .nav-bar .nav-links {
