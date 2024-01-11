@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Alegreya", serif;
+}
+
+/* Clear Fix  */
+.clear-fix {
+    clear: both;
+}
+
+/* Container */
+.container {
+    /* background-color: brown; */
+    width: 90%;
+    margin: auto;
+}
+
+/* NavBar */
+
+.nav-bar {
+    margin: 10px 0px;
+}
+
+.nav-bar .nav-logo {
+    width: 20%;
+    float: left;
+}
+
+.nav-bar .nav-links {
+    float: right;
+}
+.nav-bar .nav-logo img {
+    width: 100%;
+}
+
+.nav-bar .nav-links ul li {
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.nav-bar .nav-links ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* Header */
+.header {
+    height: 100vh;
+    background-image: url(/images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    overflow: auto;
+}
+
+.home {
+    margin-top: 50px;
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+}
+
+.home .p-welcome {
+    font-size: 24px;
+}
+.home h1 {
+    font-size: 76px;
+}
+.home p {
+    font-size: 24px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+button {
+    padding: 15px 25px;
+    margin: 20px 5px;
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home .btn1 {
+    background-color: #8e7754;
+    border: 2px solid transparent;
+}
+
+.home .btn2 {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+/* Section About */
+
+.section-about {
+    margin-top: 60px;
+}
+
+.section-about .about-image {
+    width: 45%;
+    float: left;
+}
+
+.section-about .about-content {
+    width: 40%;
+    float: left;
+    margin-left: 60px;
+}
+
+.section-about .about-image img {
+    width: 100%;
+}
+
+.section-about .about-content h2 {
+    font-size: 32px;
+    color: RGB(48, 48, 48);
+}
+
+.section-about .about-content p,
+.location-content p,
+.item p,
+.contact-info p {
+    margin: 15px 0px;
+    font-size: 18px;
+    line-height: 25px;
+    color: RGB(104, 104, 104);
+}
+
+.section-about .about-content ul li {
+    list-style-type: none;
+    color: RGB(104, 104, 104);
+    margin: 10px;
+}
+
+.icons {
+    font-size: 20px;
+    color: RGB(142, 119, 84);
+    border: gray solid 1px;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0px 10px 0px -15px;
+}
+
+/* Our Location */
+
+.our-location {
+    background-color: #f8f8f8;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.our-location .location-content {
+    width: 45%;
+    float: left;
+}
+
+.our-location .location-image {
+    width: 45%;
+    float: right;
+}
+
+.our-location .location-image img {
+    width: 100%;
+}
+
+/* Section Our Baking */
+
+.baking {
+    text-align: center;
+}
+
+.item {
+    width: 33.333%;
+    float: left;
+    padding: 10px;
+}
+.baking-items .item img {
+    width: 100%;
+}
+
+/* Contact Information */
+
+.contact {
+    padding: 50px;
+    margin: 50px 0px;
+}
+
+.contact-info {
+    width: 50%;
+    float: left;
+}
+
+.contact-map {
+    width: 40%;
+    float: right;
+}
+.contact .contact-info h2 {
+    font-size: 32px;
+    margin: 20px 0px;
+}
+
+.contact .contact-info ul li {
+    list-style-type: none;
+    color: RGB(104, 104, 104);
+
+    margin: 30px 0px;
+}
+
+/* Details */
+
+.information {
+    background-color: #403d38;
+    padding: 60px;
+
+}
+.information h4 {
+    font-size: 18px;
+    color: white;
+    margin: 15px 0px ;
+}
+.information p , .special li   {
+    color: RGB(150, 150, 150);
+    line-height: 30px;
+}
+
+
+.information .about-us ,.special {
+    width: 20%;
+    float: left;
+    margin:  20px;
+
+}
+
+ 
+.special li {
+    list-style-type: none;
+    margin: 15px 0px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    line-height: 30px;
+
+}
+.fa-greater-than {
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+
+
+.Contact-details {
+   background-image: url(/images/contact-details-map.png);
+   background-position: center 80%;
+   background-repeat: no-repeat;
+   background-size: contain;
+ 
+   filter: invert(0.1);
+   
+ 
+}
+
+
+.special a {
+    text-decoration: none;
+    color: RGB(150, 150, 150);
+    margin-left: 5px;
+}
+
+.special a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    background-color: #353330;
+    text-align: center;
+    padding: 50px;
+}
+.footer p {
+    color: #737270;
+    margin: 20px 0px;
+}
+
+
+.footer .social .fa-brands {
+    font-size: 20px;
+
+    border: 2px solid transparent;
+    color: #797979;
+    margin: 0px 5px;
+    padding: 15px;
+    background-color: #484540;
+    border: 2px solid transparent;
+    border-radius: 50%;
+
+}
