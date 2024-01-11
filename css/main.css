@@ -49,13 +49,13 @@
 /* Header */
 .header {
     height: 100vh;
-    background-image: url(/images/drew-coffman-1872.jpg);
+    background-image: url(../images/drew-coffman-1872.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .layer {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     overflow: auto;
 }
