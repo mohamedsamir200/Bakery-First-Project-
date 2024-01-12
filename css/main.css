@@ -255,7 +255,7 @@ button {
 
 
 .Contact-details {
-   background-image: url(/images/contact-details-map.png);
+   background-image: url(../images/contact-details-map.png);
    background-position: center 80%;
    background-repeat: no-repeat;
    background-size: contain;
